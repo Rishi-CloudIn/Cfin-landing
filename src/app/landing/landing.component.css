@@ -1,3 +1,40 @@
 .faq-card {
   cursor: pointer;
 }
+
+.feature-card {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.feature-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  transform: translateY(-3px);
+}
+
+.login-btn {
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.login-btn:hover {
+  border: 1px solid #0265e7;
+  border-radius: 10px;
+  color: #0265e7;
+  border-color: #0265e7;
+}
+
+.active:hover,
+.btn:hover {
+  transition: 0.4s;
+  transform: scale(1.05);
+}
+
+.img-aniem {
+  transition: 0.4s;
+}
+
+.img-aniem:hover {
+  transition: 0.4s;
+  transform: translateY(-6px);
+  filter: drop-shadow(4px 6px 6px #0265e73d);
+}

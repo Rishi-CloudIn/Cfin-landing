@@ -6,7 +6,9 @@
       class="nav-link-container d-flex justify-content-between align-items-center px-md-5 px-3"
     >
       <div class="nav-logo d-flex align-items-center">
-        <img src="./assets/img/CFIN_Logo-01.svg" class="logo" alt="logo" />
+        <a href="#home">
+          <img src="./assets/img/CFIN_Logo-01.svg" class="logo" alt="logo" />
+        </a>
         <!-- <lottie-player
               style="width: 100%"
               src="assets/js/cfin_logo.json"
@@ -18,7 +20,7 @@
       <div class="links">
         <ul>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" class="nav-a">About</a>
           </li>
           <li>
             <a href="#feature">Features</a>
@@ -30,7 +32,12 @@
             <a href="#faq">Faq</a>
           </li>
           <li class="ms-lg-4">
-            <a href="https://app.cfinapp.com/login" target="_blank">Log in</a>
+            <a
+              href="https://app.cfinapp.com/login"
+              class="login-btn"
+              target="_blank"
+              >Log in</a
+            >
           </li>
           <li>
             <a
@@ -51,7 +58,7 @@
 </nav>
 
 <!-- header -->
-<div class="container header-container-main py-4 py-xl-5">
+<div class="container header-container-main py-4 py-xl-5" id="home">
   <div class="row row-cols-1 row-cols-lg-2 p-4">
     <div class="col d-flex flex-column justify-content-center p-4">
       <div
@@ -102,7 +109,7 @@
 
   <!-- bg img -->
 
-  <div class="row mb-5">
+  <div class="row mb-1">
     <div class="col-md-8 col-xl-6 text-center mx-auto">
       <h2 style="font-family: 'Noir Pro'">Introduction</h2>
       <p class="w-lg-50" style="font-family: 'Noir Pro'">
@@ -147,7 +154,7 @@
     <div class="col-md-6">
       <div class="p-xl-5 m-xl-5">
         <img
-          class="rounded img-fluid w-100 fit-cover"
+          class="rounded img-fluid w-100 fit-cover img-aniem"
           style="min-height: 300px"
           src="assets/img/Mobile-01.svg"
         />
@@ -184,26 +191,26 @@
     <img
       src="./assets/img/Responsive-01.png"
       alt="img"
-      class="img-responsive"
+      class="img-responsive img-aniem"
     />
   </div>
 </section>
 
 <!-- feature -->
 <section
-  class="container py-4 py-xl-5"
+  class="container py-5 py-xl-2"
   style="font-family: 'Noir Pro'"
   id="feature"
 >
-  <div class="row mb-5">
-    <div class="col-md-8 col-xl-6 text-center mx-auto">
+  <div class="row mb-5 mt-5">
+    <div class="col-md-8 col-xl-6 text-center mx-auto box-c">
       <h2 style="font-family: 'Noir Pro'">Features</h2>
     </div>
   </div>
   <div class="feature-content-div">
     <div class="row justify-content-center">
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -222,7 +229,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -241,7 +248,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -262,7 +269,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -281,7 +288,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -300,7 +307,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -319,7 +326,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -340,7 +347,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -361,7 +368,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -379,7 +386,7 @@
       </div>
 
       <div class="col-xl-4 col-md-6 col-12 px-2 py-4">
-        <div class="card">
+        <div class="card feature-card">
           <div class="card-body">
             <div class="feature-img-div mx-auto">
               <img
@@ -1106,15 +1113,15 @@
 <!-- download -->
 
 <section
-  class="container my-3 my-xl-3"
+  class="container my-5 my-xl-3"
   style="font-family: 'Noir Pro'"
   id="download"
 >
   <div class="row gy-4 gy-md-0">
     <div class="col-md-6">
-      <div class="p-xl-5 m-xl-5">
+      <div class="px-xl-5 mx-xl-5">
         <img
-          class="rounded img-fluid w-80 fit-cover"
+          class="rounded img-fluid w-80 fit-cover img-aniem"
           style="min-height: 300px"
           src="assets/img/Mobile-01.png"
         />
@@ -1148,7 +1155,7 @@
 </section>
 
 <!-- faq -->
-<section class="faq-section my-5" id="faq">
+<section class="faq-section mt-5 mb-5" id="faq">
   <div class="faq-content-div">
     <div class="mb-5 text-center mx-auto">
       <h2 style="font-family: 'Noir Pro'">Faq's</h2>

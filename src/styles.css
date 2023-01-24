@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 /* ---------------------------------header ---------------------------------*/
 
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .header-container-main {
   background-color: #f8f8fa;
   border-radius: 30px !important;
@@ -256,6 +261,7 @@
 }
 
 .faq-content-p {
+  transition: 0.4s;
   margin: 20px auto 0px auto;
 }
 
@@ -266,6 +272,7 @@
 }
 
 .faq-content-p-active {
+  transition: 0.4s;
   display: none;
 }
 
@@ -298,6 +305,8 @@
   }
 
   .faq-content-p {
+    transition: 0.4s;
+
     margin: 7px auto 0px auto;
   }
 
@@ -308,6 +317,7 @@
   }
 
   .faq-content-p-active {
+    transition: 0.4s;
     display: none;
   }
 }
